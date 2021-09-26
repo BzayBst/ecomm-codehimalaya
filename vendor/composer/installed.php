@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '8ced7deb9711bab4cdb30a1a9b51cfd26d28f520',
         'name' => 'bagisto/bagisto',
         'dev' => true,
     ),
@@ -65,12 +65,23 @@
             'dev_requirement' => false,
         ),
         'bagisto/bagisto' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '8ced7deb9711bab4cdb30a1a9b51cfd26d28f520',
+            'dev_requirement' => false,
+        ),
+        'bagisto/bagisto-package-generator' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bagisto/bagisto-package-generator',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '73173cf8a517b8722fd9aa24c61013d9a837b5e5',
             'dev_requirement' => false,
         ),
         'bagisto/laravel-admin' => array(

@@ -25,6 +25,7 @@ return array(
     'Webkul\\Product\\' => array($baseDir . '/packages/Webkul/Product/src'),
     'Webkul\\Paypal\\' => array($baseDir . '/packages/Webkul/Paypal/src'),
     'Webkul\\Payment\\' => array($baseDir . '/packages/Webkul/Payment/src'),
+    'Webkul\\PackageGenerator\\' => array($vendorDir . '/bagisto/bagisto-package-generator/src'),
     'Webkul\\Marketing\\' => array($baseDir . '/packages/Webkul/Marketing/src'),
     'Webkul\\Inventory\\' => array($baseDir . '/packages/Webkul/Inventory/src'),
     'Webkul\\DebugBar\\' => array($baseDir . '/packages/Webkul/DebugBar/src'),

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f332e85750165207f5e56aa0a0ca6428",
+    "content-hash": "857c59132b2aa37503463a822920d1d0",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -464,6 +464,52 @@
                 }
             ],
             "time": "2021-02-25T12:18:25+00:00"
+        },
+        {
+            "name": "bagisto/bagisto-package-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bagisto/bagisto-package-generator.git",
+                "reference": "73173cf8a517b8722fd9aa24c61013d9a837b5e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bagisto/bagisto-package-generator/zipball/73173cf8a517b8722fd9aa24c61013d9a837b5e5",
+                "reference": "73173cf8a517b8722fd9aa24c61013d9a837b5e5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Webkul\\PackageGenerator\\Providers\\PackageGeneratorServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webkul\\PackageGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Singh",
+                    "email": "jitendra@webkul.com"
+                }
+            ],
+            "description": "Bagisto Package Generator",
+            "support": {
+                "issues": "https://github.com/bagisto/bagisto-package-generator/issues",
+                "source": "https://github.com/bagisto/bagisto-package-generator/tree/master"
+            },
+            "time": "2021-03-22T06:30:08+00:00"
         },
         {
             "name": "bagistobrasil/bagisto-product-social-share",
@@ -11645,6 +11691,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "bagisto/bagisto-package-generator": 20,
         "tymon/jwt-auth": 20
     },
     "prefer-stable": true,
